@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono&display=swap"
+      rel="stylesheet">
+    <title>Devchallenges</title>
+
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 200px;
+      }
+      img {
+        height: 350px;
+        margin-top: 50px;
+      }
+      h1 {
+        font-family: Space Mono;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 95px;
+        text-align: left;
+        letter-spacing: -0.035em;
+      }
+      p {
+        font-family: Space Mono;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        text-align: left;
+        letter-spacing: -0.035em;
+        width: 380px;
+        line-height: 40px;
+        margin-top: 24px;
+      }
+      .prompt {
+        font-family: Inconsolata;
+        position: absolute;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 25px;
+        letter-spacing: -0.08em;
+        text-transform: uppercase;
+        margin-top: -20vh;
+      }
+      .button {
+        width: 200px;
+        height: 50px;
+        background: #333333;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 24px;
+      }
+      .wrapper {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 96px;
+      }
+      @media (max-width: 500px) {
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+        }
+        .prompt {
+          margin-top: 0px;
+        }
+        img {
+          margin-top: 96px;
+        }
+        body {
+          padding: 40px;
+          padding-bottom: 80px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class = "wrapper">
+      <div class = "img-section">
+        <p class = "prompt">404 NOT FOUND</p>
+        <img src = "Scarecrow.png" alt="image-section"/>
+      </div>
+      <div>
+        <h1>I have a bad news<br/> for you</h1>
+        <p>The page you are looking for might be removed or is temporarily unavailable</p>
+        <div class = "button">
+          BACK TO HOMEPAGE
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
